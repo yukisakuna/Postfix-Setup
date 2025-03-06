@@ -12,7 +12,7 @@
 1. スクリプトをダウンロード
 2. root 権限で実行（sudo 忘れずに！）
    ```
-   sudo ./setup.py
+   sudo python3 setup.py
    ```
 3. ドメイン名を入力
 4. DKIM Public KeyをTXTレコードで追加
