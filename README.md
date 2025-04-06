@@ -15,7 +15,6 @@ mail	IN	A サーバーのip
 @	IN	MX mail.ドメイン
 @ IN TXT v=spf1 ip4:{ip} -all
 _dmarc IN TXT v=DMARC1; p=none;
-dkimは最後にprintされるから頑張れ
 ```
 1. スクリプトをダウンロード
 2. root 権限で実行
